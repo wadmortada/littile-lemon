@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pageWrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+body {
+    background-color: bisque;
+
+}
+
+header {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav {
+    background-color: beige;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+}
+
+main {
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.primarySec {
+    padding: 1rem;
+    background: url(images/vegtabule.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+}
+section p {
+    padding: 0.5rem;
+}
+
+.secondarySec {
+    padding: 0.5rem;
+    display: flex;
+    margin: 0.5rem 0;
+    column-gap: 10px;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+article {
+    padding: 0.5rem;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+} 
+
+footer p {
+    border-top: 1px solid ;
+}
